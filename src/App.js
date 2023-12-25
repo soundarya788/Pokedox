@@ -10,7 +10,7 @@ function App() {
     const [position, setPosition] = useState(0);
 
     const [selectedPokemon, setSelectedPokemon] = useState(null);
-    
+
     const [typeFilter, setTypeFilter] = useState('');
     const page = 8;
 
