@@ -142,14 +142,14 @@ function App() {
                 </div>
             )}
             <div className="text-center">
-                <button onClick={handlePrevious} disabled={position === 0} className="btn btn-secondary mr-2" style={{marginLeft:'-200px',position:'absolute',marginTop:'50px'}}>
+                <button onClick={handlePrevious} disabled={position === 0} className="btn btn-secondary mr-2" style={{marginLeft:'-200px',position:'absolute',marginTop:'10px'}}>
                     Previous
                 </button>
                 <button
                     onClick={handleNext}
                     disabled={position + page >= data.length}
                     className="btn btn-secondary"
-                    style={{marginLeft:'50px',position:'absolute',marginTop:'50px'}}
+                    style={{marginLeft:'50px',position:'absolute',marginTop:'10px'}}
                 >
                     Next
                 </button>

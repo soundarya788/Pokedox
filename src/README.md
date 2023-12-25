@@ -19,3 +19,6 @@ Pokémon API (https://pokeapi.co/api/v2/pokemon/?limit=500)
    -npm install axios
    -npm install bootstrap
    -npm start
+
+
+live netlify link: https://warm-griffin-efdb10.netlify.app/
