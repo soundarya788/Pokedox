@@ -22,3 +22,5 @@ Pokémon API (https://pokeapi.co/api/v2/pokemon/?limit=500)
 
 
 live netlify link: https://warm-griffin-efdb10.netlify.app/
+
+wait , it will loading after opening the live link
