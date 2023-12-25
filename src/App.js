@@ -202,7 +202,7 @@ function getColorForType(type) {
         case 'fire':
             return '#F08030'; 
         case 'water':
-            return '#6890F0'; 
+            return '#6890F0';
         
         default:
             return '#A8A878';
