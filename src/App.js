@@ -94,7 +94,7 @@ function App() {
     };
 
     return (
-        <div className="container mt-4">
+        <div className="container mt-4" style={{marginTop:'-40px'}}>
             <input
                 type="text"
                 value={search}
@@ -199,13 +199,17 @@ export default App;
 function getColorForType(type) {
     switch (type) {
         case 'grass':
-            return '#78C850'; 
+            return '#eb4d4b'; 
         case 'fire':
-            return '#F08030'; 
+            return '#eb4d4b'; 
         case 'water':
-            return '#6890F0';
+            return '#e056fd';
+        case 'normal':
+           return '#4834d4';
+     case 'ground':
+          return '#6ab04c';
         
         default:
-            return '#A8A878';
+            return '#7ed6df';
     }
 }
